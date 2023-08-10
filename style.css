@@ -1,0 +1,232 @@
+body{
+
+    background: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+
+    position: relative;
+    height: 575px;
+    width: 500px;
+    margin-top: 15vh;
+}
+
+.upper{
+
+    background-color: hsl(10, 79%, 65%);
+    height: 22.5%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower{
+
+    height: 75%;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.lefttop{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.lefttop p{
+
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.lefttop h2{
+
+    margin-left: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 700;
+}
+
+.righttop{
+
+    display: flex;
+    margin-right: 50px;
+    margin-top: 38px;
+}
+
+.lowertop{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.lowermid{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.column{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.monblock{
+
+    display: block;
+    width: 45px;
+    height: 40.5px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.tueblock{
+
+    display: block;
+    width: 45px;
+    height: 81.5px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.wedblock{
+
+    display: block;
+    width: 45px;
+    height: 116.5px;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 10px;
+}
+
+.thublock{
+
+    display: block;
+    width: 45px;
+    height: 72px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.friblock{
+
+    display: block;
+    width: 45px;
+    height: 54px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.satblock{
+
+    display: block;
+    width: 45px;
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.sunblock{
+
+    display: block;
+    width: 45px;
+    height: 59.5px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+}
+
+.block{
+
+    transition: 150ms;
+    position: relative;
+}
+
+.price{
+
+    background-color:hsl(25, 47%, 15%);
+    transition: opacity 0.5s;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 30px;
+    visibility: hidden;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.montext{
+
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+
+    width: 90%;
+    margin-top: 20px;
+    border-color: hsl(10, 79%, 65%);
+    border-style: dashed;
+}
+
+.lowerbot{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.t2{
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 25px;
+    font-size: 14px;
+    color: hsl(28, 10%, 53%);
+}
+
+.lowerbot h1{
+
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.botright{
+
+    text-align: right;
+    margin-top: 25px;
+}
+
+.t4{
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+
+.t5{
+
+    margin-top: 0;
+    padding-top: 0;
+    color: hsl(28, 10%, 53%);
+}
